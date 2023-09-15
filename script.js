@@ -37,7 +37,7 @@ const fetchRecipes = async (query) => {
 
     }
     catch (error) {
-        recipeContainer.innerHTML = "<h2>No recipe found OR Internal server error.......</h2>"
+        recipeContainer.innerHTML = "<h2>No recipe found.......</h2>"
     }
 
 }
